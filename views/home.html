@@ -1,0 +1,7 @@
+<div class="jumbotron">
+  Hi, <input type="text" ng-model="$ctrl.name" />
+  <h2>Home Page</h2>
+</div>
+
+<list-component name="$ctrl.name" on-list-change="$ctrl.onChange(value)"></list-component>
+<paragraph name="$ctrl.name"></paragraph>
